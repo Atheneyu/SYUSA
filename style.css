@@ -1,0 +1,139 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /*Header Style */
+  header {
+    background-color: #222f3e;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header ul li {
+    margin-right: 20px;
+  }
+  
+  header ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  /* Product Styles */
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .product img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .product h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .product p {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label,
+input,
+textarea,
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  width: auto;
+  cursor: pointer;
+}
+
+#contactField {
+  display: none;
+}
+
+/* Contact Style */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label,
+input,
+textarea,
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  width: auto;
+  cursor: pointer;
+}
+
+#usernameOrNumber {
+  display: none;
+}
+
+  
+  /* Footer Style */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+  }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <!-- Navigation menu -->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <!-- Company logo -->
+    <img src="logo.png" alt="Shouyu Logo">
+  </header>
+  <h1>Contact Us</h1>
+  <form id="contactForm" action="contact.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="language">Preferred Language:</label>
+    <select id="language" name="language">
+      <option value="english">English</option>
+      <option value="cantonese">Cantonese</option>
+      <option value="mandarin">Mandarin</option>
+      <option value="spanish">Spanish</option>
+    </select>
+
+    <label for="preferredMethod">Preferred Method of Communication:</label>
+    <select id="preferredMethod" name="preferredMethod">
+      <option value="email">Email</option>
+      <option value="wechat">WeChat</option>
+      <option value="phone">Phone</option>
+      <option value="text">Text</option>
+      <option value="whatsapp">WhatsApp</option>
+      <option value="other">Other</option>
+    </select>
+  
+    <label for="contactInfo">Username or Phone Number:</label>
+    <textarea id="contactInfo" name="contactInfo" required></textarea>
+   
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <script src="script.js"></script>
+  <footer>
+    <p>&copy; 2023 Shouyu USA LLC All rights reserved.</p>
+  </footer>
+</body>
+</html>
