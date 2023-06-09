@@ -6,9 +6,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $contactInfo = $_POST['contactInfo'];
   $message = $_POST['message'];
 
-  // Process the form data (e.g., send an email, store in a database, etc.)
-
-  // Example: Send an email
   $to = 'your-email@example.com';
   $subject = 'New Contact Form Submission';
   $emailBody = "Name: $name\nLanguage: $language\nPreferred Method: $preferredMethod\nContact Info: $contactInfo\nMessage: $message";
